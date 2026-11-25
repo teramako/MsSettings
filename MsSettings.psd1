@@ -1,6 +1,6 @@
 @{
 RootModule = 'MsSettings.psm1'
-ModuleVersion = '0.0.1'
+ModuleVersion = '1.0.0'
 CompatiblePSEditions = 'Desktop','Core'
 GUID = '5285973b-c40c-409f-9f09-19b3900b00ee'
 Author = 'teramako'
