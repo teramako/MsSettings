@@ -17,7 +17,10 @@ FunctionsToExport = @(
 CmdletsToExport = @()
 VariablesToExport = @()
 AliasesToExport = @()
-# FileList = @()
+FileList = @(
+    'MsSettings.psm1'
+    'ms-settings.ps1'
+)
 PrivateData = @{
     PSData = @{
         Tags = @('Windows', 'Settings', 'ms-settings')
