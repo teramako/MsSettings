@@ -7,6 +7,9 @@ class MsSetting {
     [string] $Category
     [string] $Name
     [string] $URL
+    [string] ToString() {
+        return "{0} > {1} {2}" -f $this.Category, $this.Name, $this.URL
+    }
 }
 
 . $PSScriptRoot\ms-settings.ps1
